@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="program.pmcwizard"
+	   name="[B][COLOR blue]P[/COLOR]M[COLOR red]C[/COLOR][COLOR gold]-[/COLOR][COLOR blue]WI[/COLOR]ZA[COLOR red]RD[/COLOR][/B]" 
+	   version="1.0.0" 
+	   provider-name="[B][COLOR gold]PERALTA MEDIA CENTER[/COLOR][/B]">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>executable</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>[COLOR gold]peralta media center Wizard[/COLOR]</summary>
+    <description>Instalador ligero e indispensable </description>
+    <platform>all</platform>
+  </extension>
+</addon>

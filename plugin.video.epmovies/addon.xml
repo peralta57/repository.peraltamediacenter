@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.epmovies" name="[B][COLOR blue]EP[/COLOR]MOV[COLOR red]IES[/COLOR][/B]" version="1.5.1" provider-name="[B][COLOR blue]PERAL[/COLOR]TAST[COLOR red]REAM[/COLOR][/B]">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+	<import addon="script.module.addon.common" />
+	<import addon="script.module.requests" />
+	<import addon="repository.mdrepo" />
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Stream Movies From [B][COLOR blue]PERAL[/COLOR]TAST[COLOR red]REAM[/COLOR][/B]</summary>
+    <description lang="en"></description>
+	<disclaimer lang="en">The author does not host or distribute any of the content displayed by this addon</disclaimer>
+    <platform>all</platform>
+  </extension>
+</addon>

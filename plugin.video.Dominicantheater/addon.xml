@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.Dominicantheater" name="[B][COLOR blue]Domini[/COLOR]can[COLOR red]Theater[/COLOR][/B]" version="2.0" provider-name="[B][COLOR blue]PERA[/COLOR]LTA[COLOR red]STREAM[/COLOR][/B]">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.urlresolver" version="3.0.21" optional="true"/>
+    <import addon="script.module.beautifulsoup" version="3.2.1"/>
+    <import addon="script.module.simple.downloader" version="0.9.4"/>
+    <import addon="script.module.beautifulsoup4" />
+    <import addon="script.module.requests" />
+    <import addon="script.module.httplib2" />
+    <import addon="script.module.liveresolver" version="0.1.24" optional="true"/>
+    <import addon="script.module.youtube.dl" optional="true"/>
+    <import addon="plugin.video.youtube" />
+    <import addon="script.module.simplejson" /> 
+    <import addon="script.module.livestreamer" optional="true"/>
+    <import addon="script.module.pyamf" optional="true"/>
+    
+       
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">[COLOR blue]Domini[/COLOR]can[COLOR red]Theater[/COLOR] </summary>
+		<description lang="en">video plugin for The Dominican comunity. Un Addon creado para la comunidad Dominicana y la tina de kodi una baina bien .</description>
+		<platform>all</platform>
+		<forum></forum>
+		<website></website>
+  </extension>
+</addon>

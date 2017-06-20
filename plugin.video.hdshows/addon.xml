@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.showshd" name="[COLOR blue][B]SHO[/COLOR]WS[COLOR red]HD[/B][/COLOR]" version="1.0.0" provider-name="PERALTASTREAM">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+	<import addon="script.module.urlresolver"  version="2.8.0"/>
+	<import addon="script.module.addon.common" />
+	<import addon="script.module.metahandler"/>
+	<import addon="script.module.requests"/>
+	<import addon="repository.mdrepo"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">[COLOR blue][B]SHO[/COLOR]WS[COLOR red]HD[/B][COLOR] Streaming content From PERALTASTREAM</summary>
+    <description lang="en">[COLOR blue][B]SHO[/COLOR]WS[COLOR red]HD[/B][COLOR] Streaming Content From PERALTASTREAM</description>
+	<disclaimer lang="en">The author does not host or distribute any of the content displayed by this addon or have any affiliation with the website owners</disclaimer>
+    <platform>all</platform>
+  </extension>
+</addon>
